@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clickable="false"
+    android:longClickable="false" >
+
+    <ImageButton
+        android:id="@+id/ShopFoodButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ShopSkinButton"
+        android:layout_below="@+id/ShopSkinButton"
+        android:contentDescription="@string/button_shop_food"
+        android:src="@drawable/shop_food_selector"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/ShopArmButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ShopFoodButton"
+        android:layout_below="@+id/ShopFoodButton"
+        android:contentDescription="@string/button_shop_arm"
+        android:src="@drawable/shop_arm_selector"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/ShopButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@string/button_adventure"
+        android:scaleType="centerCrop"
+        android:src="@drawable/shop_selector"
+        android:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/BattleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignTop="@+id/ShopButton"
+        android:layout_toLeftOf="@+id/FoodButton"
+        android:contentDescription="@string/button_battle"
+        android:scaleType="centerCrop"
+        android:src="@drawable/battle_selector"
+        android:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/AdvButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/BattleButton"
+        android:layout_alignTop="@+id/BattleButton"
+        android:layout_toLeftOf="@+id/BattleButton"
+        android:contentDescription="@string/button_adventure"
+        android:scaleType="centerCrop"
+        android:src="@drawable/advbutton_selectors"
+        android:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/ShopClosedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/button_shop_closed"
+        android:src="@drawable/shop_close_selector"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/ShopBearButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/unknownSkin2"
+        android:layout_alignTop="@+id/ShopRabbitButton"
+        android:layout_toRightOf="@+id/ShopRabbitButton"
+        android:contentDescription="@string/button_shop_bear"
+        android:src="@drawable/skin_bear_buy_selector"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/FoodButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignTop="@+id/ShopButton"
+        android:layout_toLeftOf="@+id/ShopButton"
+        android:contentDescription="@string/button_food"
+        android:scaleType="centerCrop"
+        android:src="@drawable/feed_selectors"
+        android:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/ShootGameButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/MoneyGameButton"
+        android:layout_marginLeft="50dp"
+        android:layout_toRightOf="@+id/MoneyGameButton"
+        android:contentDescription="@string/button_shoot_game"
+        android:cropToPadding="true"
+        android:src="@drawable/shoot_game_selector"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/MoneyGameButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="88dp"
+        android:layout_marginTop="133dp"
+        android:contentDescription="@string/button_money_game"
+        android:src="@drawable/collect_treasure_selector"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/AdvClosedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="19dp"
+        android:layout_marginTop="42dp"
+        android:contentDescription="@string/button_adv_close"
+        android:src="@drawable/shop_close_selector"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/ShotButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="15dp"
+        android:contentDescription="@string/button_shoot"
+        android:src="@drawable/fire_button_selector"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/ShopDownButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ShopUpButton"
+        android:layout_alignTop="@+id/ShopUnknown3"
+        android:layout_marginTop="19dp"
+        android:contentDescription="@string/button_shop_down"
+        android:src="@drawable/shop_down_selector"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/ShopCatButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ShopRabbitButton"
+        android:layout_below="@+id/ShopRabbitButton"
+        android:layout_toLeftOf="@+id/ShopBearButton"
+        android:contentDescription="@string/button_shop_cat"
+        android:src="@drawable/skin_cat_selector"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/unknownSkin2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ShopCatButton"
+        android:layout_alignLeft="@+id/ShopBearButton"
+        android:layout_alignRight="@+id/ShopBearButton"
+        android:layout_below="@+id/ShopRabbitButton"
+        android:contentDescription="@string/button_shop_unknown1"
+        android:src="@drawable/skin_none"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/unknownSkin1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ShopBearButton"
+        android:layout_toRightOf="@+id/ShopBearButton"
+        android:contentDescription="@string/button_shop_unknown1"
+        android:focusableInTouchMode="true"
+        android:src="@drawable/skin_none"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/unknownSkin3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/unknownSkin2"
+        android:layout_alignRight="@+id/unknownSkin1"
+        android:layout_alignTop="@+id/unknownSkin2"
+        android:layout_toRightOf="@+id/ShopBearButton"
+        android:contentDescription="@string/button_shop_unknown1"
+        android:src="@drawable/skin_none"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/skinDownButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/skinUpButton"
+        android:layout_alignTop="@+id/unknownSkin3"
+        android:layout_marginTop="18dp"
+        android:contentDescription="@string/button_shop_down"
+        android:src="@drawable/shop_down_selector"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/BerryButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/CheeseButton"
+        android:layout_below="@+id/CheeseButton"
+        android:layout_marginTop="15dp"
+        android:contentDescription="@string/berry_button"
+        android:src="@drawable/strawberry"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/CheeseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="17dp"
+        android:contentDescription="@string/cheese_button"
+        android:src="@drawable/cheese"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/shopBullet2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/shopArrowButton"
+        android:layout_toRightOf="@+id/shopArrowButton"
+        android:contentDescription="@string/shop_bullet2_button"
+        android:src="@drawable/shop_arm_lv3_buy"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/shopBullet1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/shopArrowButton"
+        android:layout_below="@+id/shopArrowButton"
+        android:contentDescription="@string/shop_bullet1_button"
+        android:src="@drawable/shop_arm_lv2_buy"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/armUnKnown3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/shopBullet1"
+        android:layout_toRightOf="@+id/shopBullet1"
+        android:contentDescription="@string/button_shop_unknown1"
+        android:src="@drawable/skin_none"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/armUnKnown1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/shopBullet2"
+        android:layout_toRightOf="@+id/shopBullet2"
+        android:contentDescription="@string/button_shop_unknown1"
+        android:src="@drawable/skin_none"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/armUnKnown2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/armUnKnown1"
+        android:layout_below="@+id/armUnKnown1"
+        android:contentDescription="@string/button_shop_unknown1"
+        android:src="@drawable/skin_none"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/armDownButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/armUpButton"
+        android:layout_alignTop="@+id/armUnKnown2"
+        android:layout_marginTop="21dp"
+        android:contentDescription="@string/button_shop_down"
+        android:src="@drawable/shop_down_selector"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/ShopSkinButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/ShopClosedButton"
+        android:layout_marginRight="36dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/button_shop_skin"
+        android:src="@drawable/shop_skin_selector"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/skinUpButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/unknownSkin1"
+        android:layout_marginBottom="16dp"
+        android:layout_toRightOf="@+id/unknownSkin1"
+        android:contentDescription="@string/button_shop_up"
+        android:src="@drawable/shop_up_selector"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/ShopUpButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ShopUnknown2"
+        android:layout_marginBottom="15dp"
+        android:layout_toRightOf="@+id/ShopUnknown2"
+        android:contentDescription="@string/button_shop_up"
+        android:src="@drawable/shop_up_selector"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/armUpButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/armUnKnown1"
+        android:layout_marginBottom="18dp"
+        android:layout_toRightOf="@+id/armUnKnown1"
+        android:contentDescription="@string/button_shop_up"
+        android:src="@drawable/shop_up_selector"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/shopBerryButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/shopCheeseButton"
+        android:layout_below="@+id/shopCheeseButton"
+        android:contentDescription="@string/button_shop_berry"
+        android:src="@drawable/shop_food_strawberry"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/shopUnKnown4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/shopBerryButton"
+        android:layout_toRightOf="@+id/shopCheeseButton"
+        android:contentDescription="@string/button_shop_unknown4"
+        android:src="@drawable/skin_none"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/ShopUnknown1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/shopBerryButton"
+        android:layout_toRightOf="@+id/shopBerryButton"
+        android:contentDescription="@string/button_shop_unknown1"
+        android:src="@drawable/skin_none"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/ShopUnknown2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ShopUnknown1"
+        android:layout_toRightOf="@+id/shopUnKnown4"
+        android:contentDescription="@string/button_shop_unknown2"
+        android:src="@drawable/skin_none"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/ShopUnknown3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ShopUnknown1"
+        android:layout_toRightOf="@+id/ShopUnknown1"
+        android:contentDescription="@string/button_shop_unknown3"
+        android:src="@drawable/skin_none"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/shopCheeseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ShopClosedButton"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="51dp"
+        android:layout_toRightOf="@+id/ShopClosedButton"
+        android:contentDescription="@string/button_shop_cheese"
+        android:src="@drawable/shop_food_cheese"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/ShopRabbitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ShopClosedButton"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="51dp"
+        android:layout_toRightOf="@+id/ShopClosedButton"
+        android:contentDescription="@string/button_shop_rabbit"
+        android:src="@drawable/skin_rabbit_use"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/shopArrowButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ShopClosedButton"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="51dp"
+        android:layout_toRightOf="@+id/ShopClosedButton"
+        android:contentDescription="@string/shop_arrow_button"
+        android:src="@drawable/shop_arrow_lv1_use"
+        android:visibility="gone" />
+
+</RelativeLayout>

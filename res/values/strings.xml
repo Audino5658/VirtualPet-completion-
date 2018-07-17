@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Virtual Pet</string>
+    <string name="app_description">QCAR MultiTargets Sample Application</string>
+    <string name="button_food">Feed</string>
+    <string name="button_rest">Rest</string>
+    <string name="button_adventure">Adventure</string>
+    <string name="button_battle">Battle</string>
+    <string name="hp_value">health</string>
+    <string name="hp_frame">frame</string>
+    <string name="cheese_button">cheese</string>
+    <string name="berry_button">strawberry</string>
+    <string name="button_shop_skin">Shop skin</string>  
+    <string name="button_shop_food">Shop food</string>  
+    <string name="button_shop_arm">Shop arm</string>  
+    <string name="button_shop_bear">Shop bear</string>
+    <string name="button_shop_cat">Shop cat</string>
+    <string name="button_shop_rabbit">Shop rabbit</string> 
+    <string name="button_shop_unknown1">Shop unknown1</string> 
+    <string name="button_shop_unknown2">Shop unknown2</string> 
+    <string name="button_shop_unknown3">Shop unknown3</string> 
+    <string name="button_shop_up">upward</string> 
+    <string name="button_shop_down">downward</string>     
+    <string name="button_shop_closed">Shop closed</string>
+    <string name="button_shoot_game">shooting game</string>
+    <string name="button_money_game">drop treasure</string>
+    <string name="button_adv_close">close adv</string>
+    <string name="button_shoot">shot</string>
+    <string name="button_shop_unknown4">unknwon4</string>
+    <string name="button_shop_cheese">buy cheese</string>
+    <string name="button_shop_berry">buy strawberry</string>
+    <string name="shop_arrow_button">Arrow</string>
+    <string name="shop_bullet1_button">bullet1</string>
+    <string name="shop_bullet2_button">Bullet2</string>  
+</resources>
